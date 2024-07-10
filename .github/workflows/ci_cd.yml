@@ -1,8 +1,5 @@
 name: ci_cd
-on:
-  push:
-    tags:        
-      - v*
+
 env:
   UPLOAD_KEY: ${{secrets.UPLOAD_KEY}}
   APPID: ${{secrets.APPID}}
